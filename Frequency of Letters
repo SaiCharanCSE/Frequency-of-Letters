@@ -1,0 +1,4 @@
+from collections import Counter 
+test_str = input("Enter the String : ")
+res = Counter(test_str)
+print ("Count of all characters in",test_str,"is :"+str(res)) 
